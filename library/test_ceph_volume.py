@@ -46,7 +46,7 @@ class TestCephVolumeModule(object):
                                  '-v', '/run/lock/lvm:/run/lock/lvm:z',
                                  '-v', '/var/run/udev/:/var/run/udev/:z',
                                  '-v', '/dev:/dev', '-v', '/etc/ceph:/etc/ceph:z',  # noqa E501
-                                 '-v', '/run/lvm/lvmetad.socket:/run/lvm/lvmetad.socket',  # noqa E501
+                                 '-v', '/run/lvm/:/run/lvm/',  # noqa E501
                                  '-v', '/var/lib/ceph/:/var/lib/ceph/:z',
                                  '-v', '/var/log/ceph/:/var/log/ceph/:z',
                                  '--entrypoint=ceph-volume',
@@ -62,7 +62,7 @@ class TestCephVolumeModule(object):
                                  '-v', '/run/lock/lvm:/run/lock/lvm:z',
                                  '-v', '/var/run/udev/:/var/run/udev/:z',
                                  '-v', '/dev:/dev', '-v', '/etc/ceph:/etc/ceph:z',  # noqa E501
-                                 '-v', '/run/lvm/lvmetad.socket:/run/lvm/lvmetad.socket',  # noqa E501
+                                 '-v', '/run/lvm/:/run/lvm/',  # noqa E501
                                  '-v', '/var/lib/ceph/:/var/lib/ceph/:z',
                                  '-v', '/var/log/ceph/:/var/log/ceph/:z',
                                  '--entrypoint=ceph-volume',
@@ -117,7 +117,7 @@ class TestCephVolumeModule(object):
                                  '-v', '/run/lock/lvm:/run/lock/lvm:z',
                                  '-v', '/var/run/udev/:/var/run/udev/:z',
                                  '-v', '/dev:/dev', '-v', '/etc/ceph:/etc/ceph:z',  # noqa E501
-                                 '-v', '/run/lvm/lvmetad.socket:/run/lvm/lvmetad.socket',  # noqa E501
+                                 '-v', '/run/lvm/:/run/lvm/',  # noqa E501
                                  '-v', '/var/lib/ceph/:/var/lib/ceph/:z',
                                  '-v', '/var/log/ceph/:/var/log/ceph/:z',
                                  '--entrypoint=ceph-volume',
@@ -149,7 +149,7 @@ class TestCephVolumeModule(object):
                                  '-v', '/run/lock/lvm:/run/lock/lvm:z',
                                  '-v', '/var/run/udev/:/var/run/udev/:z',
                                  '-v', '/dev:/dev', '-v', '/etc/ceph:/etc/ceph:z',  # noqa E501
-                                 '-v', '/run/lvm/lvmetad.socket:/run/lvm/lvmetad.socket',  # noqa E501
+                                 '-v', '/run/lvm/:/run/lvm/',  # noqa E501
                                  '-v', '/var/lib/ceph/:/var/lib/ceph/:z',
                                  '-v', '/var/log/ceph/:/var/log/ceph/:z',
                                  '--entrypoint=ceph-volume',
@@ -172,7 +172,7 @@ class TestCephVolumeModule(object):
                                  '-v', '/run/lock/lvm:/run/lock/lvm:z',
                                  '-v', '/var/run/udev/:/var/run/udev/:z',
                                  '-v', '/dev:/dev', '-v', '/etc/ceph:/etc/ceph:z',  # noqa E501
-                                 '-v', '/run/lvm/lvmetad.socket:/run/lvm/lvmetad.socket',  # noqa E501
+                                 '-v', '/run/lvm/:/run/lvm/',  # noqa E501
                                  '-v', '/var/lib/ceph/:/var/lib/ceph/:z',
                                  '-v', '/var/log/ceph/:/var/log/ceph/:z',
                                  '--entrypoint=ceph-volume',
@@ -220,7 +220,7 @@ class TestCephVolumeModule(object):
                                  '-v', '/run/lock/lvm:/run/lock/lvm:z',
                                  '-v', '/var/run/udev/:/var/run/udev/:z',
                                  '-v', '/dev:/dev', '-v', '/etc/ceph:/etc/ceph:z',  # noqa E501
-                                 '-v', '/run/lvm/lvmetad.socket:/run/lvm/lvmetad.socket',  # noqa E501
+                                 '-v', '/run/lvm/:/run/lvm/',  # noqa E501
                                  '-v', '/var/lib/ceph/:/var/lib/ceph/:z',
                                  '-v', '/var/log/ceph/:/var/log/ceph/:z',
                                  '--entrypoint=ceph-volume',
@@ -269,7 +269,7 @@ class TestCephVolumeModule(object):
                                  '-v', '/run/lock/lvm:/run/lock/lvm:z',
                                  '-v', '/var/run/udev/:/var/run/udev/:z',
                                  '-v', '/dev:/dev', '-v', '/etc/ceph:/etc/ceph:z',  # noqa E501
-                                 '-v', '/run/lvm/lvmetad.socket:/run/lvm/lvmetad.socket',  # noqa E501
+                                 '-v', '/run/lvm/:/run/lvm/',  # noqa E501
                                  '-v', '/var/lib/ceph/:/var/lib/ceph/:z',
                                  '-v', '/var/log/ceph/:/var/log/ceph/:z',
                                  '--entrypoint=ceph-volume',
